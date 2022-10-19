@@ -1,0 +1,129 @@
+* {
+    top: 0;
+    left: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    color: #000000;
+    cursor: default;
+}
+.container {
+    position: absolute;
+    width: 1918px;
+    height: 935px;
+    top: 938px;
+    background: #FFFFFF;;
+}
+.sidebar {
+    position: absolute;
+    width: 150px;
+    height: 935px;
+    background: #191718;
+}
+.logo {
+    position: absolute;
+    width: 310px;
+    height: 122px;
+    margin-top: 20px;
+    margin-left: 879px;
+}
+.logo img {
+    width: 100%;
+}
+.intro {
+    margin-left: 279px;
+    margin-top: 172px;
+    width: 1510px;
+    height: 210px;
+    background: #EFEFEF;
+    text-align: center;
+}
+.title {
+    padding-top: 38px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+}
+.content {
+    margin-left: 269px;
+    width: 975px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+.group-content {
+    margin-left: 279px;
+    margin-top: 40px;
+    width: 1510px;
+    height: 252px;
+    display: flex;
+    justify-content: space-between;
+}
+.group {
+    width: 470px;
+}
+.title-gr {
+    margin: 0 0 18px;
+    height: 28px;
+    font-weight: 700;
+    font-size: 24px;
+}
+.group-1 {
+    display: flex;
+}
+.group-1 .icon {
+    width: 128px;
+    height: 128px;
+}
+.group-1 .icon img {
+    width: 100%;
+}
+.content-gr {
+    margin-left: 16px;
+    width: 326px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+.content-gr-1 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 5px;
+}
+.footer {
+    margin-top: 182px;
+    height: 79px;
+    border-top: #d6d5d5 1px solid;
+}
+.copy {
+    margin-left: 279px;
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+/* sidebar */
+ul {
+    padding-left: 0;
+    margin: 0;
+}
+ul li {
+    height: 44px;
+    list-style-type: none;
+    border-bottom: 1px solid #dbdbdb;;
+}
+ul li a {
+    width: 140px;
+    padding-left: 10px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    line-height: 44px;
+    display: inline-block;
+}
+ul li a:hover {
+    background: #5C5C5C;
+}
+
